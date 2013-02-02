@@ -1,0 +1,15 @@
+{
+  "name": "tmplc",
+  "version": "0.1.0",
+  "desription": "JS/HTML templates collector, combining them into a single JS file.",
+  "author": "Denis Gonsiorovsky <dns.gnsr@gmail.com>",
+  "repository": "http://github.com/gonsiorovsky/tmplc",
+  "bin": "./tmplc.js",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/gonsiorovsky/tmplc/raw/master/LICENSE"
+  },
+  "dependencies": {
+    "nopt": "2"
+  }
+}
