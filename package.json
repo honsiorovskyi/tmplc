@@ -1,6 +1,6 @@
 {
   "name": "tmplc",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "desription": "JS/HTML templates collector, combining them into a single JS file.",
   "author": "Denis Gonsiorovsky <dns.gnsr@gmail.com>",
   "repository": "http://github.com/gonsiorovsky/tmplc",

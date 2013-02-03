@@ -44,7 +44,7 @@ for (var i = 0; i < files.length; i++) {
 
   var tname = files[i].substr(0, files[i].lastIndexOf('.'));
   var tbody = fs.readFileSync(dir + '/' + files[i]).toString()
-    .replace('\n', '\\\n' + tab(3))
+    .replace(/(\n|\r|\r\n)/gm, '\\\n' + tab(3))
     .replace('\'', '\\\'');
   body += tab(2) + 'var ' + tname + ' = \n' + tab(3) + '\'' + tbody + '\';\n\n';
   rets += tab(3) + tname + ': ' + tname + ',\n';
